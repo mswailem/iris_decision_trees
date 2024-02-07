@@ -3,7 +3,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier, plot_tree
 from sklearn.metrics import accuracy_score
 from sklearn.datasets import load_iris
+import matplotlib
 import matplotlib.pyplot as plt
+matplotlib.use('Qt5Agg')
 
 def main():
     # Load Iris dataset
